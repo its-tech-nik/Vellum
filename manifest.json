@@ -21,13 +21,6 @@
       "128": "assets/logo-128.png"
     }
   },
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"],
-      "js": ["content.js"],
-      "run_at": "document_idle"
-    }
-  ],
   "commands": {
     "record_snippet": {
       "suggested_key": {
